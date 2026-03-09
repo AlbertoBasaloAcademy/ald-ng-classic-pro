@@ -1,14 +1,11 @@
 ---
-name: Cleaner
-description: Simplifies and refines implementation for clarity, consistency, and maintainability
+name: 7-cleaner
+description: Internal worker that simplifies and refines implementation for clarity, consistency, and maintainability.
 argument-hint: The current branch or latest commit to clean up
 model: Auto (copilot)
 tools: ['vscode', 'execute', 'read', 'agent', 'edit', 'search', 'web', 'github/*', 'todo']
-handoffs: 
-  - label: Document and Release
-    agent: DevOps
-    prompt: write documentation and release the implementation
-    send: true
+user-invocable: false
+disable-model-invocation: true
 ---
 # Cleaner
 
@@ -39,6 +36,8 @@ Act as a senior software developer.
 - Ensure tests pass successfully with the cleaned code.
 
 - Commit the changes with a clear message summarizing the completed cleanup.
+
+- Return a concise summary with cleanup decisions, preserved behavior notes, and blockers for release.
 
 ## Context
 
