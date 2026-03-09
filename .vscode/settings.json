@@ -1,4 +1,11 @@
 {
-  "material-icon-theme.folders.theme": "specific",
-  "material-icon-theme.files.associations": {}
+  "chat.agentFilesLocations": {
+    ".agents": true
+  },
+  "chat.agentSkillsLocations": {
+    ".agents/skills": true,
+  },
+  "chat.promptFilesLocations": {
+    ".agents/prompts": true
+  }
 }
