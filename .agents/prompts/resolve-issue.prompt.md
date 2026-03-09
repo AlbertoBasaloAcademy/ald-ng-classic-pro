@@ -8,10 +8,9 @@ agent: Coder
 
 ## Task
 
-Resolve the specified issue.
+Resolve the specified issue by programming the solution.
 
 ## Context
 
-If no issue number is provided, ask for it.
-
+If no issue number is provided, use the the first open issue in the repository.
 

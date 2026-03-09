@@ -1,5 +1,8 @@
 # AGENTS Guide for AssetsBoard
 
+You are a coding agent configured at `/.agents` folder.
+Check the `manifest.md` for the list of available sub-agents, prompts and skills. 
+
 ## Product Overview
 - AssetsBoard is a local-first portfolio tracker for private investors.
 - Main flows: add, edit, delete assets; symbols search; theme toggle.
